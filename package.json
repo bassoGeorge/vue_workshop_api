@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "persistent": "json-server --watch db.json"
+    "persistent": "node index.js persistent"
   },
   "author": "Anish George <anishgeo@thoughtworks.com>",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.4",
     "json-server": "0.14.0"
   }
 }
